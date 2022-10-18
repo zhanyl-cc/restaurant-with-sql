@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +12,9 @@ session_start();
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<?php
+session_start();
+?>
 	<?php require('components/login-modal.php'); ?>
 	<?php require('components/register-modal.php'); ?>
 	<?php require('components/info-modal.php'); ?>
