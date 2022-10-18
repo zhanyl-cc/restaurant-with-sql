@@ -1,0 +1,121 @@
+.sidenav a{
+	text-decoration: none;
+}
+.nav-wrapper > a {
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+}
+.nav-wrapper > a:hover {
+	color: white;
+}
+.hvr-grow {
+    text-decoration: none;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	text-decoration: none;
+	color: white;
+}
+.slider .indicators .indicator-item.active{
+	background-color: skyblue;
+}
+.card__wrapper {
+	padding: 0 50px;
+}
+.main-btn {
+	background-color: skyblue!important;
+}
+.btn-add {
+	background-color: #93D417!important;
+}
+.btn-remove {
+	background-color: red!important;
+}
+.main-background-color {
+	background-color: skyblue!important;
+}
+.food__list_padding {
+	padding: 0 20px;
+}
+.cook_img {
+	height: 300px;
+	width: auto;
+	object-fit: contain;
+}
+.soc__media_ul {
+	width: 90px;
+}
+.soc__media_ul li a {
+	display: flex;
+	align-items: center;
+}
+.soc__media_ul li a img {
+	margin-right: 10px;
+}
+.err__msg {
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.section-food-add{
+	background-color: skyblue;
+}
+.section-cat-add form .input-field input{
+	color: white;
+	width: 70%;
+}
+.section-cat-add form .input-field label{
+	color: white;
+}
+.section-food-add form .input-field input{
+	color: white;
+	width: 70%;
+}
+.section-food-add form .input-field label{
+	color: white;
+}
+.section-food-add form .select-wrapper input{
+	color: white;
+	width: 90%;
+}
+.section-food-add-wrapper{
+	padding: 40px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+.section-dashboard {
+	background-color: skyblue;
+}
+.section-dashboard .row {
+	padding: 50px;
+}
+.section-cat-add {
+	background-color: skyblue;
+}
+.section-cat-add-btn-add, .section-food-add-btn-add{
+	margin-right: 15px;
+}
+.fcarousel h1 {
+	position: absolute;
+	bottom: 600px;
+	left: 50%;
+	display: block;
+	transform: translate(-50%, 50%);
+}
+.fcarousel .link {
+	position: relative;
+}
+@media(max-width : 992px) {
+	.nav-wrapper > a:hover {
+		color: black;
+	}
+}
+@media(min-width : 992px) {
+	.nav-wrapper > a {
+		padding-left: 35px;
+	}
+}
